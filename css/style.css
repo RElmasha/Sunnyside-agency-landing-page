@@ -20,7 +20,7 @@
   /* padding */
   --default-padding: 2rem 4rem;
   --button-padding: 0.8rem 1rem;
-  --section-padding: 9rem 0;
+  --section-padding: 5rem 0;
   --description-padding: 10rem;
 
   /* Font Family */
@@ -304,6 +304,16 @@ li {
   .nav__hamburger {
     display: block;
   }
+  .nav {
+    text-align: right;
+  }
+  header {
+    padding: 1rem;
+  }
+  .hero {
+    background-image: url(./../images/mobile/image-header.jpg);
+    height: 70vh;
+  }
 }
 
 @media screen and (min-width: 1025px) {
@@ -313,4 +323,13 @@ li {
   .nav__hamburger {
     display: none;
   }
+}
+
+/* ------------------ Homeworks ---------------------  */
+
+@media screen and (min-width: 912px) {
+img {
+  width: 50%;
+  min-width: 400px;
+}
 }
