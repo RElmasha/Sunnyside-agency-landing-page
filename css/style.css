@@ -371,7 +371,6 @@ li {
   .nav {
     text-align: right;
   }
-<<<<<<< HEAD
   .hero {
     background-image: url(./../images/mobile/image-header.jpg);
     padding: 9rem 1rem;
@@ -387,17 +386,39 @@ li {
 
   .about {
     flex-direction: column-reverse;
-=======
+  }
+  #about{
+    flex-direction: column;
+  }
   header {
     padding: 1rem;
   }
   .hero {
     background-image: url(./../images/mobile/image-header.jpg);
     height: 70vh;
->>>>>>> b21edec (style: creating the header section' resposive)
   }
+  #expertise__container{
+    flex-direction:column;
+  }
+  .expertise--bg-apple {
+    background-image: url(./../images/mobile/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
-
+.expertise--bg-orange {
+  background-image: url(./../images/mobile/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.expertise__description{
+  padding-top: 20rem;
+}
+.gallery{
+  flex-direction:column;
+}
+}
 @media screen and (min-width: 1025px) {
   .nav__list {
     display: flex;
