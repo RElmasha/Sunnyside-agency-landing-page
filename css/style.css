@@ -371,13 +371,11 @@ li {
   .nav {
     text-align: right;
   }
-<<<<<<< HEAD
   .hero {
     background-image: url(./../images/mobile/image-header.jpg);
     padding: 9rem 1rem;
     text-align: center;
   }
-=======
   header {
     padding: 1rem;
   }
@@ -386,7 +384,6 @@ li {
     height: 70vh;
   }
 }
->>>>>>> refs/remotes/origin/update-responsive
 
   .about__title {
     font-size: 3rem;
