@@ -318,7 +318,7 @@ li {
 }
 
 .gallery__picture {
-  width:100%;
+  width: 100%;
   height: 100%;
 }
 
@@ -329,23 +329,15 @@ li {
   color: var(--white-color);
   padding: var(--section-padding);
   text-align: center;
- margin-bottom: 5%
-}
-.footer__logo{
-
-  padding-top: 20%;
-  padding-bottom: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 
 .footer__nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
   text-align: center;
   margin: 1rem 0;
- 
 }
 
 .footer__list {
@@ -353,10 +345,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  
 }
 
 .footer__item {
@@ -370,29 +358,6 @@ li {
 .footer__item:hover {
   color: var(--white-color) !important;
 }
-
-/* ------------------ Footer2 ---------------------  */
-.footer__list2 {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-.footer__item {
-  font-family: var(--primary-font);
-  padding: 0 1rem;
-  font-size: 0.9rem;
-  color: var(--black-degraded) !important;
-  transition: var(--transition);
-}
-
-.footer__item:hover {
-  color: var(--white-color) !important;
-} 
 
 /* ------------------ Responsive ---------------------  */
 
@@ -406,11 +371,13 @@ li {
   .nav {
     text-align: right;
   }
+<<<<<<< HEAD
   .hero {
     background-image: url(./../images/mobile/image-header.jpg);
     padding: 9rem 1rem;
     text-align: center;
   }
+=======
   header {
     padding: 1rem;
   }
@@ -418,6 +385,8 @@ li {
     background-image: url(./../images/mobile/image-header.jpg);
     height: 70vh;
   }
+}
+>>>>>>> refs/remotes/origin/update-responsive
 
   .about__title {
     font-size: 3rem;
@@ -457,59 +426,8 @@ li {
 .expertise__description{
   padding-top: 20rem;
 }
-.gallery {
-  display: none;
-}
-.galleryDeux {
-  display: flex;
-  display: grid;
-  grid-template-columns: 50% 50%;
-}
-.gallery__item {
-  flex-basis: 25%;
-}
-
-.gallery__picture {
-  width:100%;
-  height: 100%;
-}
-
-.footer {
-  background-color: #90d4c5;
-  color: var(--white-color);
-  padding-right: 20px;
-  text-align: center;
-  font-size: 2rem;
-}
-.footer__nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 3rem;
-  text-align: center;
-  margin: 3rem 0;
-  padding-right: 190px;
-}
-.footer__list {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  left: 20%;
- 
-}
-.footer__list2 {
-  width: 20%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 35%;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  
+.gallery{
+  flex-direction:column;
 }
 }
 @media screen and (min-width: 1025px) {
@@ -519,10 +437,13 @@ li {
   .nav__hamburger {
     display: none;
   }
-  .gallery {
-    display: flex;
-  }
-  .galleryDeux {
-    display: none;
-  }
+}
+
+/* ------------------ Homeworks ---------------------  */
+
+@media screen and (min-width: 912px) {
+img {
+  width: 50%;
+  min-width: 400px;
+}
 }
